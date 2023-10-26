@@ -115,3 +115,9 @@ img {
         margin: 0px 30px 10px 30px;
     }
   }
+  @media only screen and (min-width: 1900px) {
+    .containers {
+        justify-content: center;
+    }
+
+  }
