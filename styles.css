@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background: border-box;
+}
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins';
+}
+h1 {
+    margin: 80px 30px 0px 30px;
+    font-size: 30px;
+    font-weight: 200;
+}
+h2 {
+    margin: 0px 30px 20px 30px;
+    font-size: 30px;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+.header-p {
+    margin: 10px 20px 80px 20px;
+    font-size: 18px;
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+}
+.containers {
+    display: flex;
+    flex-direction: column;
+}
+.container1, .container2, .container3, .container4 {
+    padding: 30px;
+    background-color: white;
+    margin: 20px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 47px 61px -23px rgba(134, 175, 181, 0.25);
+}
+.container1 {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+.container2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.container3 {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+.container4 {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+h3 {
+    color: hsl(234, 12%, 34%);
+}
+p {
+    color: hsl(229, 6%, 66%);
+}
+img {
+    margin-top: 60px;
+
+    float: right;
+}
+
+@media only screen and (min-width: 1400px) {
+    header {
+        text-align: center;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .header-p {
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-bottom: 0px;
+    }
+    .container1, .container2, .container3, .container4 {
+        padding: 30px;
+        background-color: white;
+        margin: 20px;
+        height: 200px;
+        width: 350px;
+        border-radius: 5px;
+        box-shadow: 0px 47px 61px -23px rgba(134, 175, 181, 0.25);
+    }
+    .containers {
+        margin: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .middle-containers {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .container1, .container4 {
+        margin-top: 165px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .header-p {
+        font-size: 15px;
+        text-align: center;
+        margin: 0px 30px 10px 30px;
+    }
+  }
